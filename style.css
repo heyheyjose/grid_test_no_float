@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* menu section here */
+
+.nav > ul > li {
+	display: inline-block;
+}
+
+.nav > ul > li a:link, .nav > ul > li a:visited {
+	display: block;
+}
+
+.nav {
+	margin: 25px 0 25px 25px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.menu-item {
+	background-color: orange;
+	padding: 10px;
+}
+
+/* this is the grid section below */
+
+html {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+body > .cat-grid {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.cat-grid {
+	border: 2px dashed darkblue;
+}
+
+.cat {
+	display: inline-block;
+	/*margin: 10px;*/
+}
