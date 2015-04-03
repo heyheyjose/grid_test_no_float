@@ -45,7 +45,7 @@ body {
 }
 
 body > .cat-grid {
-	width: 900px;
+	width: 822px;
 	margin: 0 auto;
 }
 
@@ -55,5 +55,5 @@ body > .cat-grid {
 
 .cat {
 	display: inline-block;
-	/*margin: 10px;*/
+	margin: 10px;
 }
